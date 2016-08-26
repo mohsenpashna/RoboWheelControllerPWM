@@ -137,6 +137,8 @@ public class MainActivity extends IOIOActivity{
     @Override
     protected void onStop() {
         super.onStop();
+        pwm3.close();
+        pwm4.close();
     }
 
 
